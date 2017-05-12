@@ -1,4 +1,5 @@
-/** Instead of avoiding "this", we embrace it... */
+console.log("Instead of avoiding \"this\", we embrace it...\n");
+
 function foo(num){
 
 	// keeps track of how many times "foo" 
