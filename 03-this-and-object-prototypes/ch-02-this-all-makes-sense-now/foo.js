@@ -1,14 +1,3 @@
-function foo(){
-	var sWho = "foo";
-	console.log( `${sWho}(): this.a = ${this.a}...` );
-}
-
-console.log( `
- Implicit binding: default binding...
-`);
-console.log( "var a = 2;...foo();..." );
-var a = 2;
-foo();
 
 console.log( "" );
 
